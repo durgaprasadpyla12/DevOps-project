@@ -12,7 +12,7 @@ Early stage. Scripts are added one at a time as they are written and tested.
 |---|---|---|
 | Apache / JBoss / WAS (HTTP) | `scripts/check_http.sh` | Available |
 | IBM MQ queue manager | `scripts/check_mq.sh` | Planned |
-| Port check | `scripts/check_port.sh` | Planned |
+| Port check | `scripts/check_port.sh` | Available |
 
 ## Usage
 
@@ -24,6 +24,12 @@ chmod +x scripts/check_http.sh
 Arguments: URL, expected HTTP status (default 200), timeout in seconds (default 5).
 
 Exit codes: `0` = OK, `2` = CRITICAL. This follows the Nagios convention, so it can plug into monitoring tools.
+
+## Runbooks
+
+- [Apache service down](docs/runbooks/apache-service-down.md)
+- [JBoss/WildFly service down](docs/runbooks/jboss-service-down.md)
+
 
 ## Contributing
 
