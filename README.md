@@ -30,7 +30,7 @@ Exit codes: `0` = OK, `2` = CRITICAL. This follows the Nagios convention, so it 
 - [Apache service down](docs/runbooks/apache-service-down.md)
 - [JBoss/WildFly service down](docs/runbooks/jboss-service-down.md)
 - [WebSphere (WAS) service down](docs/runbooks/was-service-down.md)
-
+- [IBM MQ queue manager down](docs/runbooks/ibm-mq-queue-manager-down.md)
 
 ## Contributing
 
